@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 70%;
+}
+
+.task-input {
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+.box-of-input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.add-btn {
+    height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.listoftask {
+    width: 100%;
+    padding: 10px;
+    background-color: cornflowerblue;
+}
+
+.eachTask {
+    margin: 8px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 0px 4px 24px rgb(0 0 0 / 10%);
+}
+
+
+/* for small devise  */
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(183, 0, 255);
+    }
+}
